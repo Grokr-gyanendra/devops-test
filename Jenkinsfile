@@ -7,13 +7,5 @@ pipeline{
                 echo "Working...."
             }
         }
-
-        stage('Run'){
-            steps{
-                script{
-                    sh "python app2.py"
-                }
-            }
-        }
     }
 }
